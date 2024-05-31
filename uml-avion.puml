@@ -1,0 +1,63 @@
+@startuml
+
+
+class Ciudad{
+    nombre;
+    aeropuertos;
+}
+
+class Aeropuerto{
+    nombre;
+}
+
+class Viaje{
+    vuelos;
+    escalas;
+}
+
+class Escala{
+    aeropuerto;
+    duracionAproxEnMin;
+}
+
+class Vuelo{
+    tripulacion;
+    pasajeros;
+    avion;
+    fecha;
+    AeropuertoPartida;
+    AeropuertoSalida;
+    AeropuertoDestino;
+}
+
+class Pasajero{
+    nombre;
+    apellido;
+}
+
+Class Empleado{
+    tipo;
+    nombre;
+    apellido;
+}
+
+class Avion{
+    cantAsientos;
+    descripcion;
+}
+
+class Aerolinea{
+    vuelo;
+}
+
+Ciudad -> Aeropuerto
+Vuelo -> Aeropuerto
+Vuelo -> Pasajero : *
+Vuelo -> Empleado : *
+Vuelo -> Avion
+Aerolinea -> Vuelo: *
+Empleado -> Aerolinea
+Viaje ->Vuelo: *
+Viaje ->Escala: *
+Escala ->Aeropuerto
+@enduml

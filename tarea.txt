@@ -1,0 +1,2 @@
+-En base al UML crear el proyecto con todas las clases bases y sus atributos
+1 archivo = 1 clase
