@@ -25,4 +25,8 @@ export class Ciudad{
 
         return cantPasajeros;
     }
+
+    tenesAeropuerto(unAeropuerto){
+        return this.aeropuertos.includes(unAeropuerto);
+    }
 }

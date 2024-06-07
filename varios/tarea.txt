@@ -1,2 +1,3 @@
--En base al UML crear el proyecto con todas las clases bases y sus atributos
-1 archivo = 1 clase
+Tarea: 
++Test del 4 al 8
++Pensar y hacer el 9 y 10
