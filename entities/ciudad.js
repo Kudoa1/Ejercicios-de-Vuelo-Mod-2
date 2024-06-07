@@ -13,4 +13,16 @@ export class Ciudad{
     cantAeropuertos(){
         return this.aeropuertos.lenght;
     }
+
+    cantPasajerosQueLlegaronEl(dia){
+        let cantPasajeros=0;
+
+        this.aeropuertos.forEach((a) => {
+            a.vuelosQueLlegaronHastaAquiElDia(dia).forEach(v => {
+                cantPasajeros+=v.cantPasajeros();
+            })
+        })
+
+        return cantPasajeros;
+    }
 }
