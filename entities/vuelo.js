@@ -6,6 +6,7 @@ export class Vuelo{
     AeropuertoPartida;
     AeropuertoSalida;
     AeropuertoDestino;
+    duracionAproxEnMins;
 
     //ya que tiene una colección de pasajeros, solamente esta clase los deberia manipular
     agregarPasajero(pasajero){
