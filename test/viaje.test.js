@@ -18,7 +18,6 @@ test("duracion del viaje me de 120 minutos",()=>{
     unViaje.agregarVuelo(vuelo2);
 
     let duracionObtenida=unViaje.duracionTotalAproxEnMins();
-    let duracionEsperada=120;
 
-    expect(duracionObtenida).toBe(duracionEsperada);
+    expect(duracionObtenida).toBe(120);
 })
