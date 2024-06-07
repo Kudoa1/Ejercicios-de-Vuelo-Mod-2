@@ -3,7 +3,7 @@ export class Vuelo{
     pasajeros=[];
     avion;
     fechaHoraPartida;
-    AeropuertoPartida;
+    fechaHoraLlegada;
     AeropuertoSalida;
     AeropuertoDestino;
     duracionAproxEnMins;
@@ -16,5 +16,19 @@ export class Vuelo{
     capacidadOcupadaPorPasajeros(){
         //porcentaje (regla de tres)
         return (this.pasajeros.length*100) /this.avion.cantAsientos;
+    }
+
+    partisteDe(unAeropuerto){
+        return this.AeropuertoSalida==unAeropuerto;
+    }
+    llegasteDe(unAeropuerto){
+        return this.AeropuertoLlegada==unAeropuerto;
+    }
+
+    salisteEnFecha(fecha){
+        return this.fechaHoraPartida == fecha;
+    }
+    llegasteEnFecha(fecha){
+        return this.fechaHoraLlegada == fecha;
     }
 }
