@@ -4,8 +4,8 @@ export class Vuelo{
     avion;
     fechaHoraPartida;
     fechaHoraLlegada;
-    AeropuertoSalida;
-    AeropuertoDestino;
+    aeropuertoSalida;
+    aeropuertoDestino;
     duracionAproxEnMins;
 
     //ya que tiene una colección de pasajeros, solamente esta clase los deberia manipular
@@ -19,10 +19,10 @@ export class Vuelo{
     }
 
     partisteDe(unAeropuerto){
-        return this.AeropuertoSalida==unAeropuerto;
+        return this.aeropuertoSalida==unAeropuerto;
     }
-    llegasteDe(unAeropuerto){
-        return this.AeropuertoLlegada==unAeropuerto;
+    llegasteA(unAeropuerto){
+        return this.aeropuertoLlegada==unAeropuerto;
     }
 
     salisteEnFecha(fecha){

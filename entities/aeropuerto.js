@@ -11,7 +11,7 @@ export class Aeropuerto{
         return this.vuelos.filter((v)=> v.partisteDe(this))
     }
     vuelosQueLlegaronHastaAqui(){
-        return this.vuelos.filter((v)=> v.llegasteDe(this))
+        return this.vuelos.filter((v)=> v.llegasteA(this))
     }
 
 
