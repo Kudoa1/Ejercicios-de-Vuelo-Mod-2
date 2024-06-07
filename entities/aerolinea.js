@@ -1,3 +1,3 @@
 export class Aerolinea{
-    vuelo;
+    vuelos=[];
 }

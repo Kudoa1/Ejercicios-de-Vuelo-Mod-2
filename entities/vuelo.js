@@ -1,8 +1,8 @@
 export class Vuelo{
-    tripulacion;
-    pasajeros;
+    tripulacion=[];
+    pasajeros=[];
     avion;
-    fecha;
+    fechaHoraPartida;
     AeropuertoPartida;
     AeropuertoSalida;
     AeropuertoDestino;

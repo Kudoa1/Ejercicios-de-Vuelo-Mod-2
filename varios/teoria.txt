@@ -1,0 +1,6 @@
+1)Para inicializar el repo:
+    a)npm init
+    b)npm i jest
+    c)Package.json---->(en scripts, en test) node --experimental-vm-modules node_modules/jest/bin/jest.js
+    d)Package.json---->(abajo de main) "type": "module",
+

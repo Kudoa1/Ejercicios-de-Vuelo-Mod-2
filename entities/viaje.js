@@ -1,4 +1,4 @@
 export class Viaje{
-    vuelos;
-    escalas;
+    vuelos=[];
+    escalas=[];
 }

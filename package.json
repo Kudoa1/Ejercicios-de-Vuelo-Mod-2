@@ -1,0 +1,23 @@
+{
+  "name": "ejercicios-de-vuelo-mod-2",
+  "version": "1.0.0",
+  "description": "ejercicio de clases con uml \"vuelo\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kudoa1/Ejercicios-de-Vuelo-Mod-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kudoa1/Ejercicios-de-Vuelo-Mod-2/issues"
+  },
+  "homepage": "https://github.com/Kudoa1/Ejercicios-de-Vuelo-Mod-2#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
