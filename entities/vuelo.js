@@ -22,7 +22,7 @@ export class Vuelo{
         return this.aeropuertoSalida==unAeropuerto;
     }
     llegasteA(unAeropuerto){
-        return this.aeropuertoLlegada==unAeropuerto;
+        return this.aeropuertoDestino==unAeropuerto;
     }
 
     salisteEnFecha(fecha){

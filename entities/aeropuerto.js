@@ -33,7 +33,7 @@ export class Aeropuerto{
 
     cantVuelosQueLlegaron(fecha){
         //lo mismo que arriba, pero en 1 sola linea y para los que llegaron.
-        return vuelosQueLlegaronHastaAquiElDia(fecha).length;
+        return this.vuelosQueLlegaronHastaAquiElDia(fecha).length;
     }
 
     
