@@ -9,7 +9,8 @@ destino. Algunos vuelos pueden tener escalas intermedias. Los aeropuertos están
 
 A cada vuelo se le asigna un avión y una tripulación, la cual consta de 2 pilotos, 1 operador de comunicaciones, 2 comisarios de abordo y 4 azafatas. Cada pasajero de un vuelo tiene asignado un asiento.
  
-***Requerimientos ***
+***Requerimientos***
+
 ***El sistema debe informar: ***
 
 1. La capacidad de un vuelo ocupada por pasajeros.
