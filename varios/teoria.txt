@@ -3,4 +3,5 @@
     b)npm i jest
     c)Package.json---->(en scripts, en test) node --experimental-vm-modules node_modules/jest/bin/jest.js
     d)Package.json---->(abajo de main) "type": "module",
-
+2)TIP:
+    -Hacer Commits de cada parte funcional que hagamos (no todo junto, si no que cada parte por separado)
